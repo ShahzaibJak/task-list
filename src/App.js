@@ -11,7 +11,7 @@ const App = () => {
     <>
       <Toaster />
       <DndProvider backend={HTML5Backend}>
-        <div className='bg-slate-100 flex flex-col items-center w-screen h-screen pt-20 gap-10'>
+        <div className='bg-blue-100 flex flex-col items-center w-screen h-screen pt-20 gap-10'>
           <CreateTask tasks={tasks} setTasks={setTasks} />
           <TaskList tasks={tasks} setTasks={setTasks} />
         </div>

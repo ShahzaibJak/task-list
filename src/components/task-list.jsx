@@ -52,7 +52,7 @@ const Section = ({ title, tasks, setTasks }) => {
     };
 
     return (
-        <div ref={drop} className={`w-64 rounded-md ${isOver ? "bg-slate-200" : ""}`}>
+        <div ref={drop} className={`w-64 rounded-md  ${isOver ? "bg-slate-200" : "bg-green-100"}`}>
             <Header text={title} bg={bg[title]} count={statusTasks.length} />
             {statusTasks.map((task) => (
                 <Task key={task.id} setTasks={setTasks} tasks={tasks} task={task} />
