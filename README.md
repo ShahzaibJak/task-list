@@ -1,3 +1,12 @@
+# React Tasks List with Drag and Drop
+
+This is a sample react task management app to create tasks and manage them between three status columns with Drag and Drop functionality. Users can also delete any individual task. The app provides a simple, user friendly design to manage tasks.
+
+## Functionality
+1. Add Task with simple form.
+2. Edit task by moving to different status columns
+3. Delete any individual task by clicking on delete icon.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
